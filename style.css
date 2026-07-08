@@ -662,3 +662,172 @@ color:#555;
 .project-card:hover img{
     transform:scale(1.1);
 }
+/*==================================
+        EXPERIENCE PAGE
+==================================*/
+
+.experience-page{
+
+    padding:100px 8%;
+    background:#ffffff;
+
+}
+
+
+.timeline{
+
+    max-width:900px;
+    margin:50px auto;
+    position:relative;
+
+}
+
+
+/* Mstari wa kati */
+
+.timeline::before{
+
+    content:"";
+
+    position:absolute;
+
+    left:50%;
+
+    top:0;
+
+    width:4px;
+
+    height:100%;
+
+    background:#D62828;
+
+    transform:translateX(-50%);
+
+}
+
+
+.timeline-item{
+
+    width:45%;
+
+    padding:30px;
+
+    background:#f8f9fa;
+
+    border-radius:15px;
+
+    margin-bottom:40px;
+
+    box-shadow:0 10px 25px rgba(0,0,0,.08);
+
+    position:relative;
+
+}
+
+
+.timeline-item:nth-child(odd){
+
+    margin-right:auto;
+
+}
+
+
+.timeline-item:nth-child(even){
+
+    margin-left:auto;
+
+}
+
+
+
+.timeline-item span{
+
+    color:#D62828;
+
+    font-weight:700;
+
+    font-size:18px;
+
+}
+
+
+.timeline-item h3{
+
+    color:#0A2342;
+
+    margin:15px 0;
+
+}
+
+
+.timeline-item p{
+
+    color:#555;
+
+    line-height:1.7;
+
+}
+
+
+/* Dot kwenye timeline */
+
+.timeline-item::after{
+
+    content:"";
+
+    position:absolute;
+
+    top:35px;
+
+    width:18px;
+
+    height:18px;
+
+    background:#D62828;
+
+    border-radius:50%;
+
+}
+
+
+.timeline-item:nth-child(odd)::after{
+
+    right:-60px;
+
+}
+
+
+.timeline-item:nth-child(even)::after{
+
+    left:-60px;
+
+}
+
+
+/* Mobile */
+
+@media(max-width:768px){
+
+.timeline::before{
+
+    left:10px;
+
+}
+
+
+.timeline-item{
+
+    width:100%;
+
+    margin-left:30px !important;
+
+}
+
+
+.timeline-item::after{
+
+    left:-30px !important;
+
+}
+
+   }
