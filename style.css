@@ -1009,3 +1009,108 @@ grid-template-columns:1fr;
 }
 
 }
+/*==================================
+        REQUEST A QUOTE PAGE
+==================================*/
+
+.quote-page{
+
+    padding:100px 8%;
+    background:#f8f9fa;
+
+}
+
+
+.quote-form{
+
+    max-width:800px;
+
+    margin:40px auto;
+
+    background:white;
+
+    padding:40px;
+
+    border-radius:15px;
+
+    box-shadow:0 10px 30px rgba(0,0,0,.1);
+
+}
+
+
+
+.quote-form input,
+
+.quote-form select,
+
+.quote-form textarea{
+
+    width:100%;
+
+    padding:15px;
+
+    margin-bottom:20px;
+
+    border:1px solid #ddd;
+
+    border-radius:8px;
+
+    font-size:15px;
+
+    outline:none;
+
+}
+
+
+
+.quote-form input:focus,
+
+.quote-form select:focus,
+
+.quote-form textarea:focus{
+
+    border-color:#D62828;
+
+}
+
+
+
+.quote-form select{
+
+    background:white;
+
+}
+
+
+
+.quote-form button{
+
+    width:100%;
+
+    padding:16px;
+
+    border:none;
+
+    background:#D62828;
+
+    color:white;
+
+    font-size:18px;
+
+    font-weight:600;
+
+    border-radius:30px;
+
+    cursor:pointer;
+
+    transition:.3s;
+
+}
+
+
+
+.quote-form button:hover{
+
+    background:#0A2342;
+
+   }
