@@ -27,3 +27,33 @@ menuBtn.onclick = () => {
     navLinks.classList.toggle("open");
 
 };
+// =============================
+// SCROLL ANIMATION
+// =============================
+
+const animatedElements = document.querySelectorAll(
+".service-card, .project-card, .card, .timeline-item, .contact-box, .quote-form"
+);
+
+
+window.addEventListener("scroll", () => {
+
+animatedElements.forEach((element)=>{
+
+
+const position = element.getBoundingClientRect().top;
+
+const screenHeight = window.innerHeight;
+
+
+if(position < screenHeight - 100){
+
+element.classList.add("show");
+
+}
+
+
+});
+
+
+});
