@@ -428,3 +428,124 @@ line-height:1.9;
 margin-bottom:20px;
 
 }
+/*==============================
+MISSION & VISION
+==============================*/
+
+.mission-vision{
+
+padding:40px 8% 80px;
+
+display:grid;
+
+grid-template-columns:repeat(auto-fit,minmax(350px,1fr));
+
+gap:30px;
+
+}
+
+.card{
+
+background:white;
+
+padding:40px;
+
+border-radius:15px;
+
+box-shadow:0 10px 25px rgba(0,0,0,.08);
+
+text-align:center;
+
+transition:.3s;
+
+}
+
+.card:hover{
+
+transform:translateY(-10px);
+
+}
+
+.card i{
+
+font-size:55px;
+
+color:#D62828;
+
+margin-bottom:20px;
+
+}
+
+.card h2{
+
+margin-bottom:20px;
+
+color:#0A2342;
+
+}
+
+.card p{
+
+line-height:1.8;
+
+color:#555;
+
+}
+
+/*==============================
+CORE VALUES
+==============================*/
+
+.values{
+
+padding:80px 8%;
+
+background:#f5f7fa;
+
+text-align:center;
+
+}
+
+.values h2{
+
+font-size:40px;
+
+color:#0A2342;
+
+margin-bottom:40px;
+
+}
+
+.value-grid{
+
+display:grid;
+
+grid-template-columns:repeat(auto-fit,minmax(220px,1fr));
+
+gap:20px;
+
+}
+
+.value-box{
+
+background:white;
+
+padding:25px;
+
+border-radius:12px;
+
+font-weight:600;
+
+box-shadow:0 8px 20px rgba(0,0,0,.08);
+
+transition:.3s;
+
+}
+
+.value-box:hover{
+
+background:#0A2342;
+
+color:white;
+
+   }
