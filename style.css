@@ -66,12 +66,12 @@ body{
 
 .nav-links a:hover,
 .nav-links a.active{
-    color:#D4AF37;
+    color:#D62828;
 }
 
 .quote-btn{
-    background:#D4AF37;
-    color:#0A2342 !important;
+    background:#D62828;
+    color:#D62828 !important;
     padding:12px 22px;
     border-radius:30px;
     font-weight:700;
@@ -194,7 +194,7 @@ body{
 
 .stat-card h2{
 
-    color:#D4AF37;
+    color:#D62828;
     font-size:50px;
 
 }
