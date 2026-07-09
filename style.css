@@ -47,8 +47,12 @@ body{
 }
 
 .logo h2{
-    color:white;
-    font-size:22px;
+    color: white;
+    font-size: 22px;
+    font-weight: 800;
+    text-transform: uppercase;
+    line-height: 1.2;
+   
 }
 
 .nav-links{
