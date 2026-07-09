@@ -1207,17 +1207,7 @@ element.classList.add("show");
 
 
 });
-/* Experience Hero Background */
 
-.experience-hero{
-    background:
-    linear-gradient(rgba(0,0,0,.5), rgba(0,0,0,.5)),
-    url("experience.jpg");
-
-    background-size: cover;
-    background-position: center;
-    background-repeat: no-repeat;
-}
 /* WHY US */
 
 .why-us{
@@ -1265,4 +1255,15 @@ element.classList.add("show");
     font-weight:900;
     color:#0A2342;
     text-transform:uppercase;
+}
+/* Experience Hero Background */
+
+.experience-hero{
+    background:
+    linear-gradient(rgba(0,0,0,.5), rgba(0,0,0,.5)),
+    url("experience.jpg");
+
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
 }
