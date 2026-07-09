@@ -744,18 +744,20 @@ color:#555;
 
     color:#D62828;
 
-    font-weight:700;
+    font-weight:800;
 
-    font-size:18px;
+    font-size:20px;
 
 }
 
 
 .timeline-item h3{
-
     color:#0A2342;
-
     margin:15px 0;
+    font-weight:800;
+    font-size:28px;
+    text-transform:uppercase;
+}
 
 }
 
@@ -1257,4 +1259,10 @@ element.classList.add("show");
 .card p{
     color:#666;
     line-height:1.7;
+}
+.experience-page .section-title h2{
+    font-size:48px;
+    font-weight:900;
+    color:#0A2342;
+    text-transform:uppercase;
 }
